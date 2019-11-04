@@ -1,6 +1,6 @@
 # Plot.ly - Belly Button Biodiversity
 
-![Bacteria by filterforge.com](Images/bacteria_by_filterforgedotcom.jpg)
+![Bacteria by filterforge.com](BB_Biodiversity/Images/bacteria_by_filterforgedotcom.jpg)
 
 Build an interactive dashboard to explore the [Belly Button Biodiversity DataSet](http://robdunnlab.com/projects/belly-button-biodiversity/).
 
@@ -17,7 +17,7 @@ Use Plotly.js to build interactive charts for your dashboard.
 
   * Use `otu_labels` as the hovertext for the chart.
 
-  ![PIE Chart](Images/pie_chart.png)
+  ![PIE Chart](BB_Biodiversity/Images/pie_chart.png)
 
 * Create a Bubble Chart that uses data from your samples route (`/samples/<sample>`) to display each sample.
 
@@ -31,7 +31,7 @@ Use Plotly.js to build interactive charts for your dashboard.
 
   * Use `otu_labels` for the text values.
 
-  ![Bubble Chart](Images/bubble_chart.png)
+  ![Bubble Chart](BB_Biodiversity/Images/bubble_chart.png)
 
 * Display the sample metadata from the route `/metadata/<sample>`
 
@@ -39,12 +39,14 @@ Use Plotly.js to build interactive charts for your dashboard.
 
 * Update all of the plots any time that a new sample is selected.
 
-![Example Dashboard Page](Images/dashboard_part1.png)
-![Example Dashboard Page](Images/dashboard_part2.png)
+![Example Dashboard Page](BB_Biodiversity/Images/dashboard_part1.png)
+![Example Dashboard Page](BB_Biodiversity/Images/dashboard_part2.png)
 
 ## Step 2 - Heroku
 
 Deploy Flask app to Heroku.
+Here is the link for Heroku app:
+https://bhavinid-bellybtn-biodiversity.herokuapp.com/
 
 - - -
 
@@ -58,7 +60,7 @@ The following task is completely optional and is very advanced.
 
 * Update the chart whenever a new sample is selected.
 
-![Weekly Washing Frequency Gauge](Images/gauge.png)
+![Weekly Washing Frequency Gauge](BB_Biodiversity/Images/gauge.png)
 
 - - -
 
